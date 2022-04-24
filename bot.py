@@ -29,11 +29,11 @@ async def start(event):
   await event.reply("^_^ Hey, Welcome To TAG Help Bot's Menu\nI can tag 15,000 Members in Group and 300 Members In Channel.\nNeed Help /help ",
                     buttons=(
                       [
-                         Button.url('📣 UPDATES', 'https://t.me/Botz_official'), 
-                         Button.url('⭐SUPPORT', 'https://t.me/BotzOfficial_Support'), 
+                         Button.url('📣 𝐔𝐏𝐃𝐀𝐓𝐄𝐒', 'https://t.me/THE_PROFESSOR_NETWORK'), 
+                         Button.url('⭐𝐒𝐔𝐏𝐏𝐎𝐑𝐓', 'https://t.me/TPN_CHATROOM'), 
                       ], 
                       [
-                        Button.url('➕ ADD ME TO YOUR GROUP', 'https://t.me/MEMBER_TAGERBOT?startgroup=true'),   
+                        Button.url('➕𝐀𝐃𝐃 𝐌𝐄 𝐓𝐎 𝐘𝐎𝐔𝐑 𝐆𝐑𝐎𝐔𝐏➕ ', 'https://t.me/MEMBER_TAGERBOT?startgroup=true'),   
                       ]
                    ), 
                     link_preview=False
@@ -46,11 +46,11 @@ async def help(event):
   await event.reply(helptext,
                     buttons=(
                       [
-                         Button.url('📣 UPDATES', 'https://t.me/Botz_Official'), 
-                         Button.url('⭐SUPPORT', 'https://t.me/BotzOfficial_Support'), 
+                         Button.url('📣 𝐔𝐏𝐃𝐀𝐓𝐄𝐒', 'https://t.me/THE_PROFESSOR_NETWORK'), 
+                         Button.url('⭐𝐒𝐔𝐏𝐏𝐎𝐑𝐓', 'https://t.me/TPN_CHATROOM'), 
                       ], 
                       [
-                        Button.url('➕ ADD ME TO YOUR GROUP', 'https://t.me/MEMBER_TAGERBOT?startgroup=true'),   
+                        Button.url('➕𝐀𝐃𝐃 𝐌𝐄 𝐓𝐎 𝐘𝐎𝐔𝐑 𝐆𝐑𝐎𝐔𝐏➕', 'https://t.me/MEMBER_TAGERBOT?startgroup=true'),   
                       ]
                    ), 
                     link_preview=False
@@ -124,5 +124,5 @@ async def mentionall(event):
 #yaha kuch kachra tha ya fr extra features 🥲🥲removed now
 
 print("Started Successfully Join Support")
-print("¯\_(ツ)_/¯ Need Help Join @Botz_Official")
+print("¯\_(ツ)_/¯ Need Help Join @The_Professor_Network")
 client.run_until_disconnected()
